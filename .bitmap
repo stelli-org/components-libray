@@ -10,7 +10,7 @@
 
 {
     "atoms/button": {
-        "scope": "stelli.components-libray-experiment",
+        "scope": "stelli.components-library-experiment",
         "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "stelli/atoms/button"
