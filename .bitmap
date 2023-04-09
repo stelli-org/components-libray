@@ -10,16 +10,10 @@
 
 {
     "atoms/button": {
-        "scope": "",
-        "version": "",
+        "scope": "stelli.components-libray-experiment",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "stelli/atoms/button",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "stelli/atoms/button"
     },
     "$schema-version": "15.0.0"
 }
