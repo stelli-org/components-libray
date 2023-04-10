@@ -16,16 +16,14 @@
         "rootDir": "stelli/atoms/button"
     },
     "icons/help": {
-        "scope": "",
+        "scope": "stelli.components-library-experiment",
         "version": "0.0.1",
-        "defaultScope": "stelli.components-library-experiment",
         "mainFile": "index.ts",
         "rootDir": "stelli/icons/help"
     },
     "icons/minus": {
-        "scope": "",
+        "scope": "stelli.components-library-experiment",
         "version": "0.0.1",
-        "defaultScope": "stelli.components-library-experiment",
         "mainFile": "index.ts",
         "rootDir": "stelli/icons/minus"
     },
