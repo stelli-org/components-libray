@@ -1,0 +1,8 @@
+.primaryButton {
+  background-color: transparent;
+  border: 1px solid #000;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
