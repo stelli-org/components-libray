@@ -284,6 +284,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"alert-a19af3@workspace:stelli/icons/alert":
+  version: 0.0.0-use.local
+  resolution: "alert-a19af3@workspace:stelli/icons/alert"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "ansi-regex@npm:^5.0.0, ansi-regex@npm:^5.0.1":
   version: 5.0.1
   resolution: "ansi-regex@npm:5.0.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fansi-regex%2F-%2Fansi-regex-5.0.1.tgz"
@@ -332,6 +341,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"bell-6beb7b@workspace:stelli/icons/bell":
+  version: 0.0.0-use.local
+  resolution: "bell-6beb7b@workspace:stelli/icons/bell"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"book-14577c@workspace:stelli/icons/book":
+  version: 0.0.0-use.local
+  resolution: "book-14577c@workspace:stelli/icons/book"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "braces@npm:^3.0.2":
   version: 3.0.2
   resolution: "braces@npm:3.0.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fbraces%2F-%2Fbraces-3.0.2.tgz"
@@ -351,6 +378,15 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"calendar-ad8d49@workspace:stelli/icons/calendar":
+  version: 0.0.0-use.local
+  resolution: "calendar-ad8d49@workspace:stelli/icons/calendar"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "call-bind@npm:^1.0.0, call-bind@npm:^1.0.2":
   version: 1.0.2
   resolution: "call-bind@npm:1.0.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcall-bind%2F-%2Fcall-bind-1.0.2.tgz"
@@ -360,6 +396,33 @@ __metadata:
   checksum: f8e31de9d19988a4b80f3e704788c4a2d6b6f3d17cfec4f57dc29ced450c53a49270dc66bf0fbd693329ee948dd33e6c90a329519aef17474a4d961e8d6426b0
   languageName: node
   linkType: hard
+
+"camera-614e60@workspace:stelli/icons/camera":
+  version: 0.0.0-use.local
+  resolution: "camera-614e60@workspace:stelli/icons/camera"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"card-d30487@workspace:stelli/icons/card":
+  version: 0.0.0-use.local
+  resolution: "card-d30487@workspace:stelli/icons/card"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"cart-9d509c@workspace:stelli/icons/cart":
+  version: 0.0.0-use.local
+  resolution: "cart-9d509c@workspace:stelli/icons/cart"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "chalk@npm:^2.0.0":
   version: 2.4.2
@@ -388,6 +451,15 @@ __metadata:
   checksum: d0a4d3160497cae54294974a7246202244fff031b0a6ea20dd57b10ec510aa17399c41a1b0982142c105f3255aff2173e5c0dd7302ee1b2f28ba3debda375098
   languageName: node
   linkType: hard
+
+"clock-bf27ed@workspace:stelli/icons/clock":
+  version: 0.0.0-use.local
+  resolution: "clock-bf27ed@workspace:stelli/icons/clock"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "color-convert@npm:^1.9.0":
   version: 1.9.3
@@ -1046,6 +1118,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "primary-button-f67945@workspace:stelli/atoms/primary-button"
   peerDependencies:
+    "@testing-library/react": 12.1.5
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   languageName: unknown
