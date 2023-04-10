@@ -174,7 +174,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:^26.0.0":
+"@types/jest@npm:>=26.0.0 <27.0.0":
   version: 26.0.24
   resolution: "@types/jest@npm:26.0.24::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fjest%2F-%2Fjest-26.0.24.tgz"
   dependencies:
@@ -205,7 +205,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:<18.0.0, @types/react-dom@npm:^17.0.5":
+"@types/react-dom@npm:<18.0.0, @types/react-dom@npm:>=17.0.5 <18.0.0":
   version: 17.0.19
   resolution: "@types/react-dom@npm:17.0.19::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-dom%2F-%2Freact-dom-17.0.19.tgz"
   dependencies:
@@ -214,7 +214,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^17, @types/react@npm:^17.0.8":
+"@types/react@npm:>=17.0.8 <18.0.0":
+  version: 17.0.57
+  resolution: "@types/react@npm:17.0.57::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact%2F-%2Freact-17.0.57.tgz"
+  dependencies:
+    "@types/prop-types": "*"
+    "@types/scheduler": "*"
+    csstype: ^3.0.2
+  checksum: c6cb8d6d261fbdc2650e00260efaf0c0a241ca72f22a43e96f32f7ab0379e5e1522f4936b6d8f97c0d8793a4fd949a90e863daa2449824f7586903cc4d299d92
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:^17":
   version: 17.0.56
   resolution: "@types/react@npm:17.0.56::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact%2F-%2Freact-17.0.56.tgz"
   dependencies:
@@ -333,6 +344,9 @@ __metadata:
 "button-d7d390@workspace:stelli/atoms/button":
   version: 0.0.0-use.local
   resolution: "button-d7d390@workspace:stelli/atoms/button"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
   languageName: unknown
   linkType: soft
 
@@ -406,7 +420,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:^3.0.0":
+"core-js@npm:>=3.0.0 <4.0.0":
   version: 3.30.0
   resolution: "core-js@npm:3.30.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcore-js%2F-%2Fcore-js-3.30.0.tgz"
   checksum: 276d4444a1261739ea4c350ef3f6aeab4c7ae7f36ac197f02d197a4566b42867c3a9b12c2fcda8a736aeca888d2c4131c8cb58ad17ed02294a10c9c97606df71
@@ -633,6 +647,15 @@ __metadata:
   checksum: b9ad53d53be4af90ce5d1c38331e712522417d017d5ef1ebd0507e07c2fbad8686fffb8e12ddecd4c39ca9b9b47431afbb975b8abf7f3c3b82c98e9aad052792
   languageName: node
   linkType: hard
+
+"help-292194@workspace:stelli/icons/help":
+  version: 0.0.0-use.local
+  resolution: "help-292194@workspace:stelli/icons/help"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "internal-slot@npm:^1.0.4":
   version: 1.0.5
@@ -923,6 +946,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"minus-09623b@workspace:stelli/icons/minus":
+  version: 0.0.0-use.local
+  resolution: "minus-09623b@workspace:stelli/icons/minus"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "object-assign@npm:^4.1.1":
   version: 4.1.1
   resolution: "object-assign@npm:4.1.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fobject-assign%2F-%2Fobject-assign-4.1.1.tgz"
@@ -1007,7 +1039,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^16.8.0 || ^17.0.0":
+"react-dom@npm:17.0.2":
   version: 17.0.2
   resolution: "react-dom@npm:17.0.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Freact-dom%2F-%2Freact-dom-17.0.2.tgz"
   dependencies:
@@ -1034,7 +1066,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:^16.8.0 || ^17.0.0":
+"react@npm:17.0.2":
   version: 17.0.2
   resolution: "react@npm:17.0.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Freact%2F-%2Freact-17.0.2.tgz"
   dependencies:
@@ -1068,18 +1100,18 @@ __metadata:
   dependencies:
     "@babel/runtime": 7.12.18
     "@testing-library/react": 12.1.5
-    "@types/jest": ^26.0.0
+    "@types/jest": ">=26.0.0 <27.0.0"
     "@types/node": 12.20.4
-    "@types/react": ^17.0.8
-    "@types/react-dom": ^17.0.5
+    "@types/react": ">=17.0.8 <18.0.0"
+    "@types/react-dom": ">=17.0.5 <18.0.0"
     "@types/testing-library__jest-dom": 5.9.5
-    core-js: ^3.0.0
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
+    core-js: ">=3.0.0 <4.0.0"
+    react: 17.0.2
+    react-dom: 17.0.2
   peerDependencies:
     "@testing-library/react": 12.1.5
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
+    react: 17.0.2
+    react-dom: 17.0.2
   languageName: unknown
   linkType: soft
 

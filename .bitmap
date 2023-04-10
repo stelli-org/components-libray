@@ -15,5 +15,19 @@
         "mainFile": "index.ts",
         "rootDir": "stelli/atoms/button"
     },
+    "icons/help": {
+        "scope": "",
+        "version": "0.0.1",
+        "defaultScope": "stelli.components-library-experiment",
+        "mainFile": "index.ts",
+        "rootDir": "stelli/icons/help"
+    },
+    "icons/minus": {
+        "scope": "",
+        "version": "0.0.1",
+        "defaultScope": "stelli.components-library-experiment",
+        "mainFile": "index.ts",
+        "rootDir": "stelli/icons/minus"
+    },
     "$schema-version": "15.0.0"
 }
