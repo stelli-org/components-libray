@@ -17,13 +17,13 @@
     },
     "atoms/primary-button": {
         "scope": "stelli.components-library-experiment",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "stelli/atoms/primary-button"
     },
     "atoms/search": {
         "scope": "",
-        "version": "",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "stelli/atoms/search"
     },
@@ -53,7 +53,7 @@
     },
     "icons/camera": {
         "scope": "stelli.components-library-experiment",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "stelli/icons/camera"
     },

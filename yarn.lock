@@ -288,6 +288,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "alert-a19af3@workspace:stelli/icons/alert"
   peerDependencies:
+    "@testing-library/react": 12.1.5
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   languageName: unknown
@@ -345,6 +346,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "bell-6beb7b@workspace:stelli/icons/bell"
   peerDependencies:
+    "@testing-library/react": 12.1.5
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   languageName: unknown
@@ -354,6 +356,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "book-14577c@workspace:stelli/icons/book"
   peerDependencies:
+    "@testing-library/react": 12.1.5
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   languageName: unknown
@@ -382,6 +385,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "calendar-ad8d49@workspace:stelli/icons/calendar"
   peerDependencies:
+    "@testing-library/react": 12.1.5
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   languageName: unknown
@@ -401,6 +405,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "camera-614e60@workspace:stelli/icons/camera"
   peerDependencies:
+    "@testing-library/react": 12.1.5
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   languageName: unknown
@@ -410,6 +415,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "card-d30487@workspace:stelli/icons/card"
   peerDependencies:
+    "@testing-library/react": 12.1.5
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   languageName: unknown
@@ -419,6 +425,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "cart-9d509c@workspace:stelli/icons/cart"
   peerDependencies:
+    "@testing-library/react": 12.1.5
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   languageName: unknown
@@ -456,6 +463,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "clock-bf27ed@workspace:stelli/icons/clock"
   peerDependencies:
+    "@testing-library/react": 12.1.5
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   languageName: unknown
@@ -1209,6 +1217,15 @@ __metadata:
   checksum: c4b35cf967c8f0d3e65753252d0f260271f81a81e427241295c5a7b783abf4ea9e905f22f815ab66676f5313be0a25f47be582254db8f9241b259213e999b8fc
   languageName: node
   linkType: hard
+
+"search-d854bf@workspace:stelli/atoms/search":
+  version: 0.0.0-use.local
+  resolution: "search-d854bf@workspace:stelli/atoms/search"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "side-channel@npm:^1.0.4":
   version: 1.0.4
