@@ -21,6 +21,12 @@
         "mainFile": "index.ts",
         "rootDir": "stelli/atoms/primary-button"
     },
+    "atoms/search": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "stelli/atoms/search"
+    },
     "icons/alert": {
         "scope": "stelli.components-library-experiment",
         "version": "0.0.1",

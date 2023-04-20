@@ -5,7 +5,7 @@ export type CameraProps = {
   size?: string;
 };
 
-export function Camera({ color = "black", size = "24px" }: CameraProps) {
+export function Camera({ color = "orange", size = "24px" }: CameraProps) {
   return (
     <svg
       viewBox="0 0 24 24"
