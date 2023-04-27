@@ -4,6 +4,7 @@ import styles from "./button.module.css";
 export type ButtonProps = {
   children?: ReactNode;
   icon?: ReactNode;
+  isYellow?: boolean;
 };
 
 export function Button({ children, icon }: ButtonProps) {
