@@ -1222,6 +1222,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "search-d854bf@workspace:stelli/atoms/search"
   peerDependencies:
+    "@testing-library/react": 12.1.5
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   languageName: unknown
