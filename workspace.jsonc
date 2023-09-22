@@ -1,7 +1,7 @@
 /**
  * this is the main configuration file of your bit workspace.
  * for full documentation, please see: https://bit.dev/docs/workspace/workspace-configuration
- **/{
+ **/ {
   "$schema": "https://static.bit.dev/teambit/schemas/schema.json",
   /**
    * main configuration of the Bit workspace.
@@ -60,6 +60,24 @@
      **/
     "*": {
       "teambit.react/react": {}
+    },
+    "{atoms/primary-button}": {
+      "teambit.dependencies/dependency-resolver": {
+        "policy": {
+          "peerDependencies": {
+            "@stelli/components-library-experiment.icons.minus": "latest",
+            "@stelli/components-library-experiment.icons.help": "latest",
+            "@stelli/components-library-experiment.icons.alert": "latest",
+            "@stelli/components-library-experiment.icons.bell": "latest",
+            "@stelli/components-library-experiment.icons.book": "latest",
+            "@stelli/components-library-experiment.icons.calendar": "latest",
+            "@stelli/components-library-experiment.icons.camera": "latest",
+            "@stelli/components-library-experiment.icons.card": "latest",
+            "@stelli/components-library-experiment.icons.cart": "latest",
+            "@stelli/components-library-experiment.icons.clock": "latest"
+          }
+        }
+      }
     }
   }
 }
