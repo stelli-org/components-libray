@@ -17,7 +17,7 @@
     },
     "atoms/primary-button": {
         "scope": "stelli.components-library-experiment",
-        "version": "0.0.5",
+        "version": "0.0.7",
         "mainFile": "index.ts",
         "rootDir": "stelli/atoms/primary-button"
     },

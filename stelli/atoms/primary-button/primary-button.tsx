@@ -42,6 +42,8 @@ const iconsMap = {
 export function PrimaryButton({ children, iconName }: PrimaryButtonProps) {
   const Icon = iconsMap[iconName] || Minus;
 
+  console.log('Icon', Icon);
+
   return (
     <button className={styles.primaryButton}>
       {children}
