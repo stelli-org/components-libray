@@ -65,16 +65,16 @@
       "teambit.dependencies/dependency-resolver": {
         "policy": {
           "peerDependencies": {
-            "@stelli/components-library-experiment.icons.minus": "latest",
-            "@stelli/components-library-experiment.icons.help": "latest",
-            "@stelli/components-library-experiment.icons.alert": "latest",
-            "@stelli/components-library-experiment.icons.bell": "latest",
-            "@stelli/components-library-experiment.icons.book": "latest",
-            "@stelli/components-library-experiment.icons.calendar": "latest",
-            "@stelli/components-library-experiment.icons.camera": "latest",
-            "@stelli/components-library-experiment.icons.card": "latest",
-            "@stelli/components-library-experiment.icons.cart": "latest",
-            "@stelli/components-library-experiment.icons.clock": "latest"
+            "@stelli/components-library-experiment.icons.minus": "*",
+            "@stelli/components-library-experiment.icons.help": "*",
+            "@stelli/components-library-experiment.icons.alert": "*",
+            "@stelli/components-library-experiment.icons.bell": "*",
+            "@stelli/components-library-experiment.icons.book": "*",
+            "@stelli/components-library-experiment.icons.calendar": "*",
+            "@stelli/components-library-experiment.icons.camera": "*",
+            "@stelli/components-library-experiment.icons.card": "*",
+            "@stelli/components-library-experiment.icons.cart": "*",
+            "@stelli/components-library-experiment.icons.clock": "*"
           }
         }
       }
