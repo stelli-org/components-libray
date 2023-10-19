@@ -103,29 +103,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@stelli/components-library-experiment.icons.alert@npm:0.0.2":
-  version: 0.0.2
-  resolution: "@stelli/components-library-experiment.icons.alert@npm:0.0.2::__archiveUrl=https%3A%2F%2Fnode.bit.cloud%2F%40stelli%2Fcomponents-library-experiment.icons.alert%2F-%2F%40stelli-components-library-experiment.icons.alert-0.0.2.tgz"
+"@stelli/components-library-experiment.icons.camera@npm:0.0.3":
+  version: 0.0.3
+  resolution: "@stelli/components-library-experiment.icons.camera@npm:0.0.3::__archiveUrl=https%3A%2F%2Fnode.bit.dev%2F%40stelli%2Fcomponents-library-experiment.icons.camera%2F-%2F%40stelli-components-library-experiment.icons.camera-0.0.3.tgz"
   dependencies:
     core-js: "npm:^3.0.0"
   peerDependencies:
     "@testing-library/react": 12.1.5
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
-  checksum: 9781de6f9a458cf87424064b811cf21ef455dca7853666a83dab6fff58b2021710d845201fe43b881762f728e6ce7e26fc5c47d8cdd777ad961f9d83b0d64947
-  languageName: node
-  linkType: hard
-
-"@stelli/components-library-experiment.icons.bell@npm:0.0.2":
-  version: 0.0.2
-  resolution: "@stelli/components-library-experiment.icons.bell@npm:0.0.2::__archiveUrl=https%3A%2F%2Fnode.bit.cloud%2F%40stelli%2Fcomponents-library-experiment.icons.bell%2F-%2F%40stelli-components-library-experiment.icons.bell-0.0.2.tgz"
-  dependencies:
-    core-js: "npm:^3.0.0"
-  peerDependencies:
-    "@testing-library/react": 12.1.5
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
-  checksum: f1d17bab7ca827e8260702811a9d54cb829d42a394ba62261856d383e1bb5f1166dc04c75a879072a2838ef093325c64d236d9ab70b3fabeb72bee453f48899f
+  checksum: ba3067bba435c85c193f9006d7fa5769183c178d8ecd1f72714a515242bf0df2dc53e2529ab736dfad4b163b645257c726cc40662d65ad3a2cf2c29fcf12cf95
   languageName: node
   linkType: hard
 
@@ -1192,8 +1179,7 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@babel/runtime": "npm:7.20.0"
-    "@stelli/components-library-experiment.icons.alert": "npm:0.0.2"
-    "@stelli/components-library-experiment.icons.bell": "npm:0.0.2"
+    "@stelli/components-library-experiment.icons.camera": "npm:0.0.3"
     "@testing-library/react": "npm:12.1.5"
     "@types/jest": "npm:^26.0.0"
     "@types/node": "npm:12.20.4"
@@ -1204,8 +1190,7 @@ __metadata:
     react: "npm:^16.8.0 || ^17.0.0"
     react-dom: "npm:^16.8.0 || ^17.0.0"
   peerDependencies:
-    "@stelli/components-library-experiment.icons.alert": 0.0.2
-    "@stelli/components-library-experiment.icons.bell": 0.0.2
+    "@stelli/components-library-experiment.icons.camera": 0.0.3
     "@testing-library/react": 12.1.5
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0

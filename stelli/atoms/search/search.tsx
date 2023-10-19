@@ -9,7 +9,7 @@ export type SearchProps = {
 export function Search({ value }) {
   return (
     <div className={styles.wrapper}>
-      <input id="search" type="text" placeholder="Search..." value={value} />
+      <input id="search" type="text" placeholder="Search..." value={value} onChange={() => null} />
       <div className={styles.icon}>
         <CameraIcon />
       </div>

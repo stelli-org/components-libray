@@ -17,15 +17,25 @@
     },
     "atoms/primary-button": {
         "scope": "stelli.components-library-experiment",
-        "version": "0.0.10",
+        "version": "0.0.11",
         "mainFile": "index.ts",
         "rootDir": "stelli/atoms/primary-button"
     },
     "atoms/search": {
         "scope": "stelli.components-library-experiment",
-        "version": "0.0.2",
+        "version": "0.0.5",
         "mainFile": "index.ts",
-        "rootDir": "stelli/atoms/search"
+        "rootDir": "stelli/atoms/search",
+        "config": {
+            "teambit.dependencies/dependency-resolver": {
+                "policy": {
+                    "dependencies": {
+                        "@stelli/components-library-experiment.icons.camera": "-"
+                    },
+                    "peerDependencies": {}
+                }
+            }
+        }
     },
     "icons/alert": {
         "scope": "stelli.components-library-experiment",
