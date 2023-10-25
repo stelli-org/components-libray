@@ -11,116 +11,85 @@
 {
     "atoms/button": {
         "scope": "stelli.components-library-experiment",
-        "version": "0.0.4",
+        "version": "0.0.5",
         "mainFile": "index.ts",
         "rootDir": "stelli/atoms/button"
     },
     "atoms/primary-button": {
         "scope": "stelli.components-library-experiment",
-        "version": "0.0.11",
+        "version": "0.0.12",
         "mainFile": "index.ts",
-        "rootDir": "stelli/atoms/primary-button",
-        "config": {
-            "teambit.dependencies/dependency-resolver": {
-                "policy": {
-                    "peerDependencies": {},
-                    "dependencies": {
-                        "@stelli/components-library-experiment.icons.bell": "-",
-                        "@stelli/components-library-experiment.icons.alert": "-",
-                        "@stelli/components-library-experiment.icons.book": "-",
-                        "@stelli/components-library-experiment.icons.calendar": "-",
-                        "@stelli/components-library-experiment.icons.camera": "-",
-                        "@stelli/components-library-experiment.icons.card": "-",
-                        "@stelli/components-library-experiment.icons.cart": "-",
-                        "@stelli/components-library-experiment.icons.clock": "-",
-                        "@stelli/components-library-experiment.icons.help": "-",
-                        "@stelli/components-library-experiment.icons.minus": "-"
-                    }
-                }
-            }
-        }
+        "rootDir": "stelli/atoms/primary-button"
     },
     "atoms/search": {
         "scope": "stelli.components-library-experiment",
-        "version": "0.0.5",
+        "version": "0.0.6",
         "mainFile": "index.ts",
-        "rootDir": "stelli/atoms/search",
-        "config": {
-            "teambit.dependencies/dependency-resolver": {
-                "policy": {
-                    "peerDependencies": {
-                        "@stelli/components-library-experiment.icons.alert": "0.0.2"
-                    },
-                    "dependencies": {
-                        "@stelli/components-library-experiment.icons.alert": "-"
-                    }
-                }
-            }
-        }
+        "rootDir": "stelli/atoms/search"
     },
     "icons/alert": {
         "scope": "stelli.components-library-experiment",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "stelli/icons/alert"
     },
     "icons/base-icon": {
-        "scope": "",
-        "version": "",
+        "scope": "stelli.components-library-experiment",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "stelli/icons/baseIcon"
     },
     "icons/bell": {
         "scope": "stelli.components-library-experiment",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "stelli/icons/bell"
     },
     "icons/book": {
         "scope": "stelli.components-library-experiment",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "stelli/icons/book"
     },
     "icons/calendar": {
         "scope": "stelli.components-library-experiment",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "stelli/icons/calendar"
     },
     "icons/camera": {
         "scope": "stelli.components-library-experiment",
-        "version": "0.0.3",
+        "version": "0.0.4",
         "mainFile": "index.ts",
         "rootDir": "stelli/icons/camera"
     },
     "icons/card": {
         "scope": "stelli.components-library-experiment",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "stelli/icons/card"
     },
     "icons/cart": {
         "scope": "stelli.components-library-experiment",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "stelli/icons/cart"
     },
     "icons/clock": {
         "scope": "stelli.components-library-experiment",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "stelli/icons/clock"
     },
     "icons/help": {
         "scope": "stelli.components-library-experiment",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "stelli/icons/help"
     },
     "icons/minus": {
         "scope": "stelli.components-library-experiment",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "stelli/icons/minus"
     },
