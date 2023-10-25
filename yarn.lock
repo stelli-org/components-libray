@@ -103,19 +103,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@stelli/components-library-experiment.icons.camera@npm:0.0.3":
-  version: 0.0.3
-  resolution: "@stelli/components-library-experiment.icons.camera@npm:0.0.3::__archiveUrl=https%3A%2F%2Fnode.bit.dev%2F%40stelli%2Fcomponents-library-experiment.icons.camera%2F-%2F%40stelli-components-library-experiment.icons.camera-0.0.3.tgz"
-  dependencies:
-    core-js: "npm:^3.0.0"
-  peerDependencies:
-    "@testing-library/react": 12.1.5
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
-  checksum: ba3067bba435c85c193f9006d7fa5769183c178d8ecd1f72714a515242bf0df2dc53e2529ab736dfad4b163b645257c726cc40662d65ad3a2cf2c29fcf12cf95
-  languageName: node
-  linkType: hard
-
 "@testing-library/dom@npm:^8.0.0":
   version: 8.20.1
   resolution: "@testing-library/dom@npm:8.20.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40testing-library%2Fdom%2F-%2Fdom-8.20.1.tgz"
@@ -350,6 +337,12 @@ __metadata:
   checksum: 6b301a7ec3da82181c73101395cc915c049bbcba7e5f354809dab60c5b492440929328eeb73c07431ef8e35e6fa5af505690b20ed91f548d3bac1a456d458a78
   languageName: node
   linkType: hard
+
+"baseIcon-478615@workspace:stelli/icons/baseIcon":
+  version: 0.0.0-use.local
+  resolution: "baseIcon-478615@workspace:stelli/icons/baseIcon"
+  languageName: unknown
+  linkType: soft
 
 "bell-6beb7b@workspace:stelli/icons/bell":
   version: 0.0.0-use.local
@@ -1179,7 +1172,6 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@babel/runtime": "npm:7.20.0"
-    "@stelli/components-library-experiment.icons.camera": "npm:0.0.3"
     "@testing-library/react": "npm:12.1.5"
     "@types/jest": "npm:^26.0.0"
     "@types/node": "npm:12.20.4"
@@ -1190,7 +1182,6 @@ __metadata:
     react: "npm:^16.8.0 || ^17.0.0"
     react-dom: "npm:^16.8.0 || ^17.0.0"
   peerDependencies:
-    "@stelli/components-library-experiment.icons.camera": 0.0.3
     "@testing-library/react": 12.1.5
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0

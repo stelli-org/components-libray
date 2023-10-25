@@ -1,24 +1,10 @@
 import React from "react";
+import { BaseIcon, IconColor } from "@stelli/components-library-experiment.icons.base-icon";
 
 export type MinusProps = {
-  color?: string;
-  size?: string;
+  color?: IconColor;
 };
 
-export function Minus({ color = "black", size = "24px" }: MinusProps) {
-  return (
-    <svg
-      viewBox="0 0 24 24"
-      version="1.1"
-      xmlns="http://www.w3.org/2000/svg"
-      xmlnsXlink="http://www.w3.org/1999/xlink"
-      style={{ fill: color, width: size, height: size }}
-      data-testid="minus"
-    >
-      <g fillRule="evenodd">
-        <path d="M0 0h24v24H0z" fill="none" />
-        <path d="M7 13h10a1 1 0 000-2H7a1 1 0 100 2z" />
-      </g>
-    </svg>
-  );
+export function Minus({ color = IconColor.Primary }: MinusProps) {
+  return (<BaseIcon dataTestId="minus" color={color} path="M7 13h10a1 1 0 000-2H7a1 1 0 100 2z" />);
 }

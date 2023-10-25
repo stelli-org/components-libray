@@ -1,5 +1,5 @@
 import React from "react";
-import { Alert } from "./alert";
+import { Alert } from ".";
 
 export const BasicAlert = () => {
   return <Alert />;

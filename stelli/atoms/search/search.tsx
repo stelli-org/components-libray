@@ -1,18 +1,16 @@
 import React from "react";
-import { Camera as CameraIcon } from "@stelli/components-library-experiment.icons.camera";
+import { Alert as AlertIcon, IconColor } from "@stelli/components-library-experiment.icons.alert";
 import styles from "./search.module.css";
 
 export type SearchProps = {
   value?: string;
 };
 
-export function Search({ value }) {
+export function Search({ value }: SearchProps) {
   return (
     <div className={styles.wrapper}>
       <input id="search" type="text" placeholder="Search..." value={value} onChange={() => null} />
-      <div className={styles.icon}>
-        <CameraIcon />
-      </div>
+        <AlertIcon color={IconColor.Secondary} />
     </div>
   );
 }
